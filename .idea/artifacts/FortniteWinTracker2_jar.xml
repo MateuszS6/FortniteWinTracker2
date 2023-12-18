@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="FortniteWinTracker2:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/FortniteWinTracker2_jar</output-path>
+    <root id="archive" name="FortniteWinTracker2.jar">
+      <element id="module-output" name="FortniteWinTracker2" />
+    </root>
+  </artifact>
+</component>
