@@ -10,7 +10,7 @@ import java.util.NoSuchElementException;
 import java.util.Scanner;
 
 public class App implements ActionListener {
-    private final File file = new File("D:\\MY STUFF\\Java\\FortniteWinTracker2\\src\\wins.txt");
+    private final File file = new File("D:\\My Stuff\\Program Stuff\\Fortnite\\wins.txt");
     private final int[] values = new int[3];
     private JPanel mainPanel;
     private JPanel leftPanel;
