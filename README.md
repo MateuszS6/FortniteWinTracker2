@@ -1,6 +1,6 @@
 # Fortnite Win Tracker 2
  
-An app that lets me update, reflects, and displays the amount of wins for each gamemode in Fortnite: Battle Royale, built as part of a personal project.
+An app that lets me update and track the amount of wins for each gamemode in Fortnite: Battle Royale, built as part of a personal project.
 
 ## Learning Outcomes
 
