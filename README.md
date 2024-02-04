@@ -4,7 +4,7 @@ An app that lets me update and track the amount of wins for each gamemode in For
 
 ## Learning Outcomes
 
-* Read and wrote to a file
-* Implemented Java button
-* Learnt Java UI intricacies
-* Displayed and reflected text based on file data
+* Read and write to a file
+* Implement JButtons
+* Java GUI intricacies
+* Display and reflect text from file data
