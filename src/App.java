@@ -7,6 +7,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.NoSuchElementException;
+import java.util.Objects;
 import java.util.Scanner;
 
 public class App implements ActionListener {
@@ -23,7 +24,7 @@ public class App implements ActionListener {
     public App() {
         // Window setup
         JFrame window = new JFrame("Fortnite Win Tracker");
-        window.setIconImage(new ImageIcon("D:\\MY STUFF\\Saved Pictures\\Icons\\My Programs\\logo2.png").getImage());
+        window.setIconImage(createMyIcon("logo.png").getImage());
         window.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         window.setSize(450, 450);
         window.setLocationRelativeTo(null);
@@ -60,10 +61,7 @@ public class App implements ActionListener {
         buttons = new JButton[2][3];
         for (int i = 0; i < buttons.length; i++) {
             for (int j = 0; j < buttons[i].length; j++) {
-                buttons[i][j] = new JButton(new ImageIcon(
-                        "D:\\MY STUFF\\Java\\FortniteWinTracker2\\src\\images\\"
-                                + ((i == 0) ? "minus" : "plus")
-                                + ".png"));
+                buttons[i][j] = new JButton(createMyIcon(((i == 0) ? "minus" : "plus") + ".png"));
                 buttons[i][j].setFocusable(false);
                 buttons[i][j].addActionListener(this);
                 if (i == 0) leftPanel.add(buttons[i][j]);
@@ -91,6 +89,10 @@ public class App implements ActionListener {
                 }
             }
         }
+    }
+
+    public ImageIcon createMyIcon(String filename) {
+        return new ImageIcon(Objects.requireNonNull(getClass().getResource('/' + filename)));
     }
 
     public int getValue(GameMode gameMode) {
