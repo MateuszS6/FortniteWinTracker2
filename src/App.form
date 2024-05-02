@@ -54,7 +54,7 @@
             </constraints>
             <properties>
               <focusable value="false"/>
-              <icon value="images/ok.png"/>
+              <icon value="ok.png"/>
               <text value=""/>
               <visible value="true"/>
             </properties>
@@ -65,7 +65,7 @@
             </constraints>
             <properties>
               <focusable value="false"/>
-              <icon value="images/crossMark.png"/>
+              <icon value="crossMark.png"/>
               <text value=""/>
             </properties>
           </component>
@@ -86,7 +86,7 @@
             <properties>
               <enabled value="true"/>
               <focusable value="false"/>
-              <icon value="images/checkMark.png"/>
+              <icon value="checkMark.png"/>
               <text value=""/>
             </properties>
           </component>
@@ -111,7 +111,7 @@
             </constraints>
             <properties>
               <horizontalTextPosition value="0"/>
-              <icon value="images/win.png"/>
+              <icon value="win.png"/>
               <text value="v2.4.1"/>
               <verticalAlignment value="0"/>
               <verticalTextPosition value="3"/>
