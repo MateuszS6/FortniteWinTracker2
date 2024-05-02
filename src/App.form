@@ -112,7 +112,7 @@
             <properties>
               <horizontalTextPosition value="0"/>
               <icon value="win.png"/>
-              <text value="v2.4.1"/>
+              <text value="v2.5"/>
               <verticalAlignment value="0"/>
               <verticalTextPosition value="3"/>
             </properties>
